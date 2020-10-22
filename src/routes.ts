@@ -11,6 +11,6 @@ routes.post('/orphanats', upload.array('images'), OrphanagensController.create)
 //Listar orfanatos
 routes.get('/orphanats', OrphanagensController.index)
 //Listar orfanatos
-routes.get('/orphanats/:id', OrphanagensController.show)
+routes.get('/orphanages/:id', OrphanagensController.show)
 
 export default routes;

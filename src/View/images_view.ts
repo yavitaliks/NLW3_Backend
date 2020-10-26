@@ -4,7 +4,7 @@ export default {
     render(imagem: Imagens){
         return{
             id: imagem.id,
-            url: `http://localhost:3333/ImagensOrf/${imagem.patch}`
+            url: `http://192.168.1.116:3333/ImagensOrf/${imagem.patch}`
         };
     },
 

@@ -6,7 +6,6 @@ import path from 'path';
 import errorHandler from './errors/handler';
 import cors from 'cors';
 
-
 const app = express();
 
 //Permitir acesso de outros dominios
